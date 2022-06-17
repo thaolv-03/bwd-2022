@@ -1,67 +1,49 @@
 /* Mobile $ tablet */
 @media (max-width:1023px) {
-    .slide-img{
+    .slide-img {
         width: 100%;
         margin: auto;
     }
-    /* Contact */
-    /* .contactUs{
-        padding: 20px;
-
-    }
-
-    .box{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas:
-         "form"
-         "information"
-         "map"
-         ;
-    }
-
-    .map{
-        min-height: 300px;
-
-    } */
 }
 
 /* tablet */
 @media (min-width:740px) and (max-width:1023px) {
-    .main-slider-content{
+    .main-slider-content {
         width: 81%;
         margin-top: 50px;
     }
 
 }
+
 /* Mobile */
 @media (max-width:739px) {
-    .feature{
+    .feature {
         width: 80%;
         margin: auto;
     }
 
-    .carousel-caption{
+    .carousel-caption {
         bottom: 165px;
 
     }
 
-    .carousel-caption h5{
+    .carousel-caption h5 {
         font-size: 16px;
-        
-    }
-    .carousel-caption{
-        bottom: 165px;
-        
+
     }
 
-    .search-on-mobile{
+    .carousel-caption {
+        bottom: 165px;
+
+    }
+
+    .search-on-mobile {
         display: block;
     }
 
 
     /* cart list */
-    .header__cart-list{
+    .header__cart-list {
         position: absolute;
         top: 100%;
         right: -193px;
@@ -74,6 +56,7 @@
         display: none;
         z-index: 2;
     }
+
     .header__cart-item-name {
         font-size: 0.8rem;
         line-height: 1.2rem;
@@ -82,6 +65,7 @@
         font-weight: 500;
         margin: 0;
     }
+
     .header__cart-heading {
         text-align: left;
         margin-top: 8px;
@@ -92,6 +76,7 @@
         font-size: 1rem;
         font-weight: 400;
     }
+
     .header__cart-item-price {
         font-size: 0.8rem;
         font-weight: 400;
@@ -114,6 +99,7 @@
         z-index: 2;
         display: none;
     }
+
     /* #search {
         display: none;
     }
@@ -122,14 +108,15 @@
         display: block;
     } */
 
-    .form-container{
+    .form-container {
         position: absolute;
         right: -240px;
         top: 65px;
         width: 282px;
         opacity: 1;
     }
-    .main-slider-content{
+
+    .main-slider-content {
         width: 60%;
         margin-top: 100px;
     }
@@ -138,13 +125,12 @@
 
 /* Responsive Slider */
 @media only screen and (max-width:1199px) {
-    .main-slider{
+    .main-slider {
         min-height: 475px;
         height: calc(100vw / 1.714);
     }
-    
-    .main-slider-content{
+
+    .main-slider-content {
         width: 80%;
     }
 }
-

@@ -120,7 +120,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    background-color: rgb(87,184,70);
+    background-color: rgb(87, 184, 70);
     transition: 0.3s;
 }
 
@@ -142,5 +142,5 @@ body {
 }
 
 .login a:hover {
-    color: rgb(87,184,70);
+    color: rgb(87, 184, 70);
 }
