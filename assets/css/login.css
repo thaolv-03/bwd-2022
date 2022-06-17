@@ -1,0 +1,211 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bg1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.login {
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top: 3%;
+    overflow: hidden;
+    border-radius: 20px;
+    padding-left: 40px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.login-img {
+    width: 46%;
+    overflow: hidden;
+}
+
+.login-img img {
+    max-width: 100%;
+}
+
+.login-container {
+    width: 52%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brain {
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brain-img {
+    width: 40%;
+}
+
+.brain-img img {
+    width: 90%;
+}
+
+.brain-name {
+    width: 60%;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.login-title {
+    margin-top: -20px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
+.login-input-container {
+    width: 52%;
+}
+
+.login-input,
+.login-input-1 {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-input input,
+.login-input-1 input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    background-color: rgba(201, 199, 199, 0.5);
+}
+
+.login-input-1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    width: 52%;
+    height: 50px;
+}
+
+.login-btn button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(87,184,70);
+    transition: 0.3s;
+}
+
+.login-btn button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+
+.forgot {
+    width: 52%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+    transition: .2s;
+}
+
+.forgot a:hover {
+    color: rgb(87,184,70);
+}
+
+.login-orther {
+    width: 52%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-orther .btn-fb,
+.login-orther .btn-gg {
+    width: 49%;
+    height: 50px;
+}
+
+.btn-fb button,
+.btn-gg button {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn-fb a,
+.btn-gg a {
+    text-decoration: none;
+}
+
+.btn-fb button img,
+.btn-gg button img {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.btn-fb button:hover ,
+.btn-gg button:hover {
+    cursor: pointer;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.signup {
+    width: 52%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.signup a {
+    text-decoration: none;
+    color: silver;
+    transition: 0.2s;
+}
+
+.signup a:hover {
+    color: rgb(87,184,70);
+}

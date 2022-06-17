@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecondHand Shop</title>
+    <!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6247139f0bfe3f4a877107e8/1fviq9a6k';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script> -->
+  <!--End of Tawk.to Script-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/js/toastr.min.js">
+  <link rel="stylesheet" href="./assets/css/toastr.min.css">
+  <!-- <link rel="stylesheet" href="./assets/css/header.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"> -->
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="icon" href="./assets/img/d59fa6016093e9b57738fcbca1cd93d9.png" type="image/icon type">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  
+ 
+<section class="header" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand d-flex justify-content-between align-items-center order-lg-0 order-sm-0 ms-4">
+        <img src="https://i.pinimg.com/originals/d5/9f/a6/d59fa6016093e9b57738fcbca1cd93d9.png" alt="">
+        <span class="text-uppercase fw-bold ms-2">SecondHand Shop</span>
+      </a>
+    
+
+    <div class="order-lg-2 order-sm-1 me-4">
+       
+       
+        
+          
+         
+
+      
+        <a href="sanphamyeuthich.html">
+          <button type="button" class="btn position-relative" >
+            <i class="fa fa-heart" ></i>
+            
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"  id="soluongsanphamyeuthich">0</span>
+          </button>
+        </a>
+       <!-- search -->
+        <button type="button"  class="btn position-relative cart ">
+          <i class="fa fa-shopping-bag"></i>
+          <div id="soluong" class="position-absolute top-0 start-100 translate-middle badge bg-primary quantityCart">0</div>
+          <div id="showcart">
+            <div class="header__cart-list ">
+              
+              <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+              <ul class="header__cart-list-item">
+                  <!-- <li class="header__cart-item">
+                      <img src="./assets/img/quan1.jpg" alt="" class="header__cart-img">
+                      <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Product</h5>
+                              <div class="header__cart-item-price-wrap">
+                                  <span class="header__cart-item-price">$5.5</span>
+                              <span class="header__cart-item-multiply">x</span>
+                              <span class="header__cart-item-qnt">1</span>
+                              </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                               
+                               <span class="header__cart-item-remove">Xóa</span>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="header__cart-item">
+                      <img src="./assets/img/ao1.jpg" alt="" class="header__cart-img">
+                      <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Product</h5>
+                              <div class="header__cart-item-price-wrap">
+                                  <span class="header__cart-item-price">$6.5</span>
+                              <span class="header__cart-item-multiply">x</span>
+                              <span class="header__cart-item-qnt">1</span>
+                              </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                               
+                               <span class="header__cart-item-remove">Xóa</span>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="header__cart-item">
+                      <img src="./assets/img/ao2.jpg" alt="" class="header__cart-img">
+                      <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Product </h5>
+                              <div class="header__cart-item-price-wrap">
+                                  <span class="header__cart-item-price">$7.5</span>
+                              <span class="header__cart-item-multiply">x</span>
+                              <span class="header__cart-item-qnt">1</span>
+                              </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                               
+                               <span class="header__cart-item-remove">Xóa</span>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="header__cart-item">
+                      <img src="./assets/img/quan2.jpg" alt="" class="header__cart-img">
+                      <div class="header__cart-item-info">
+                          <div class="header__cart-item-head">
+                              <h5 class="header__cart-item-name">Product </h5>
+                              <div class="header__cart-item-price-wrap">
+                                  <span class="header__cart-item-price">$5.5</span>
+                              <span class="header__cart-item-multiply">x</span>
+                              <span class="header__cart-item-qnt">1</span>
+                              </div>
+                          </div>
+                          <div class="header__cart-item-body">
+                               
+                               <span class="header__cart-item-remove">Xóa</span>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="header__cart-item">
+                    <img src="./assets/img/ao3.jpg" alt="" class="header__cart-img">
+                    <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                            <h5 class="header__cart-item-name">Product </h5>
+                            <div class="header__cart-item-price-wrap">
+                                <span class="header__cart-item-price">$5.5</span>
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-qnt">1</span>
+                            </div>
+                        </div>
+                        <div class="header__cart-item-body">
+                             
+                             <span class="header__cart-item-remove">Xóa</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="header__cart-item">
+                  <img src="./assets/img/quan3.jpg" alt="" class="header__cart-img">
+                  <div class="header__cart-item-info">
+                      <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Product </h5>
+                          <div class="header__cart-item-price-wrap">
+                              <span class="header__cart-item-price">$5.5</span>
+                          <span class="header__cart-item-multiply">x</span>
+                          <span class="header__cart-item-qnt">1</span>
+                          </div>
+                      </div>
+                      <div class="header__cart-item-body">
+                           
+                           <span class="header__cart-item-remove">Xóa</span>
+                      </div>
+                  </div>
+              </li>  -->
+              <li class="header__cart-item ">
+         
+                <div class="header__cart-item-info">
+                    <div class="header__cart-item-head">
+                        <h1 id="thongbaogiohang" class="header__cart-item-name text-center text-danger ms-5 fw-bold p-2 fs-5" >Không có sản phẩm nào</h1>
+                      
+                    </div>
+                 
+                </div>
+            </li>
+              </ul>
+  
+              <a href="giohangchitiet.html" class="btn btn--primary header__cart-view-cart btn btn" id="btnXemchitiet" style="cursor: none;background: gray;">Xem chi tiết giỏ hàng</a>
+             
+  
+          </div>
+          </div>
+        </button>
+
+        <!-- user -->
+        <button type="button" class="btn position-relative  btn-user">
+          <i class="fa fa-user"></i>
+          <div class="setting-user">
+            
+              
+             
+              <ul class="setting-user-list-item">
+                  
+                  <li class="setting-user-item border-bottom">
+                     
+                          <div class="setting-user-item-body d-flex justify-content-center">
+                               
+                               <a class="setting-user-item-link" href="thongtincanhan.html">Thông tin cá nhân</a>
+                          </div>
+                      
+                  </li>
+                  <li class="setting-user-item border-bottom">
+                          <div class="setting-user-item-body">
+                               
+                            <a  class="setting-user-item-link" href="">Thông báo</a>
+                          </div>
+                      
+                  </li>
+                 
+                 
+                  <li class="setting-user-item">
+                  
+                        <div class="setting-user-item-body">
+                             
+                             <a class="setting-user-item-link" href="login.html">Đăng xuất</a>
+                        </div>
+                    
+                </li>
+                
+                
+              </ul>
+  
+             
+             
+  
+          
+          </div>
+        </button>
+       
+      
+    </div>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse order-lg-1 order-sm-2" id="navMenu">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item px-2 py-2">
+          <a href="#home" class="nav-link text-uppercase text-dark link-id ">TRANG CHỦ</a>
+        </li>
+        <li class="nav-item px-2 py-2">
+          <a href="donam.html" class="nav-link text-uppercase text-dark link-id">SẢN PHẨM</a>
+        </li>
+       
+        <li class="nav-item px-2 py-2 border-0">
+          <a href="#review" class="nav-link text-uppercase text-dark link-id">ĐÁNH GIÁ </a>
+        </li>
+        <li class="nav-item px-2 py-2">
+          <a href="#blog_area" class="nav-link text-uppercase text-dark link-id">BLOG</a>
+        </li>
+       
+         <li class="nav-item px-2 py-2">
+          <a href="#footer" class="nav-link text-uppercase text-dark link-id">LIÊN HỆ</a>
+        </li>
+        <form class="d-flex ms-lg-5">
+          <input class="form-control me-2 search" type="search" placeholder="Search here " aria-label="Search">
+          <button class="btn btn-outline-danger btn-search" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </ul>
+    </div>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav> -->
+    </div>
+  </nav>
+</section>
+
+
+<div class="main">
+  
+<!-- Slider -->
+<div class="main-slider" id="home" style="background-image: url(./assets/img/slidermain.jpg);">
+  <div class="container fill-hight">
+    <div class="row align-items-center fill-hight">
+      <div class="col">
+        <div class="main-slider-content">
+          <h1 class="text-uppercase text-white  fw-800  " data-aos="fade-right">Thời trang phong cách  </h1>
+          <h1 class="text-uppercase text-white  fw-800  " data-aos="fade-left">Bảo vệ môi trường  </h1>
+          <h1 class="text-uppercase text-white  fw-800 ">Giả rẻ  </h1>
+         
+          <div class="button"><a href=""><button class="btn btn-danger mt-5">Shop Now</button></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="feature mt-5 p-2 mb-5" data-aos="zoom-in-up" >
+   
+    <div class="container mt-2">
+
+      <div class="row d-flex ">
+        <div class="col-md-3  col-sm-6 p-4">
+          <div class="card card-block fade-in ">
+          
+        <img src="./assets/img/free-ship.jpg" alt="Photo of sunset" class="img-feature-item">
+            <h5 class="card-title text-center mt-3 mb-3 m-auto text-danger fw-light " >Miễn phí vận chuyển </h5>
+
+      </div>
+        </div>
+        <div class="col-md-3 col-sm-6 p-4">
+          <div class="card card-block fade-in">
+          
+        <img src="./assets/img/dathangtructuyen.jpg" alt="Photo of sunset" class="img-feature-item">
+            <h5 class="card-title text-center  mt-3 mb-3 m-auto fw-light" style="color: #009687;">Đặt hàng trực tuyến </h5>
+
+      </div>
+        </div>
+        <div class="col-md-3 col-sm-6 p-4">
+          <div class="card card-block fade-in">
+          
+        <img src="./assets/img/tietkiemtien.jpg" alt="Photo of sunset" class="img-feature-item">
+            <h5 class="card-title text-center  mt-3 mb-3 m-auto text-warning fw-light">Tiết kiệm tiền</h5>
+
+      </div>
+        </div>
+        <div class="col-md-3 col-sm-6 p-4">
+          <div class="card card-block fade-in">
+          
+        <img src="./assets/img/khuyenmai.jpg" alt="Photo of sunset" class="img-feature-item">
+            <h5 class="card-title text-center  mt-3 mb-3 m-auto text-black fw-light">Khuyến mãi thường xuyên</h5>
+
+      </div>
+        </div>    
+      </div>
+      
+    </div>
+    
+  </div>
+  
+ 
+
+   
+    <section id="product">
+         <!-- New product -->
+         <div class="container bg-white">
+          <nav class="navbar navbar-expand-md navbar-light bg-white">
+              <div class="container-fluid p-0">
+                  <a class="navbar-brand text-uppercase fw-800" href="#"><span
+                          class="border-red pe-2" data-aos="zoom-in-right">Sản phẩm mới  nhất </span> </a>
+                 
+                  
+              </div>
+          </nav>
+          <div class="row" data-aos="zoom-out-right">
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="1">
+                  <div class="product">
+                      <img class="product-img" src="https://images.pexels.com/photos/54203/pexels-photo-54203.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <!-- <div class="tag bg-red">sale</div> -->
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Áo khoác đông</div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">450.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="2">
+                  <div class="product">
+                      <img class="product-img" src="https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)"   data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Áo khoác </div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">320.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="3">
+                  <div class="product">
+                      <img class="product-img" src="./assets/img/giay1.jpg"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang " onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1"> Giày đá bóng adidas</div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">250.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="4">
+                  <div class="product">
+                      <img class="product-img" src="./assets/img/aokhoacnhungnam.png"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                   <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Áo khoác nhung nam</div>
+                 
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">250.000<span></span></div>
+              </div>
+          </div>
+          <div class="row" data-aos="zoom-out-left">
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="5">
+                  <div class="product">
+                      <img class="product-img" src="./assets/img/kinh1.png"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Kính mắt</div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">150.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="6">
+                  <div class="product">
+                      <img class="product-img" src="./assets/img/aopolohong.jpg"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Áo polo nam hồng</div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">150.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="7">
+                  <div class="product">
+                      <img class="product-img" src="https://images.pexels.com/photos/914668/pexels-photo-914668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1"> Full set </div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">700.000<span></span></div>
+              </div>
+              <div
+                  class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3" data-id="8">
+                  <div class="product">
+                      <img class="product-img" src="https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                          alt="">
+                      <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                          <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                          <li class="icon mx-3" onclick="themvaodanhsachyeuthich(this)"><span class="far fa-heart"></span></li>
+                          <li class="icon btn-themgiohang" onclick="themvaogiohang(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                      </ul> 
+                  </div>
+                  <div class="tag bg-green">new</div>
+                  <div class="title pt-4 pb-1">Hoodie nữ</div>
+                  <div class="d-flex align-content-center justify-content-center">
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                      <span class="fas fa-star"></span>
+                  </div>
+                  <div class="price">300.000<span></span></div>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Sale product -->
+      <div class="container bg-white mt-5 mb-5" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" >
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand text-uppercase fw-800" href="#"><span
+                        class="border-red pe-2">Sản phẩm giảm giá  </span> </a>
+               
+                
+            </div>
+        </nav>
+        <div class="row">
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/giaythoitrang1.jpg"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1">Giày Jordan</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">1.500.000<span></span></div>
+                <div class="price">600.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/an5.png"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1">Croptop nữ</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">200.000<span></span></div>
+                <div class="price">100.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/kinhgucci.jpg"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1"> Kính Gucci</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">700.000<span></span></div>
+                <div class="price">600.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/aokakinam.png"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div><div class="tag bg-red">sale</div> 
+                <div class="title pt-4 pb-1">Áo kaki nam</div>
+                 
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">350.000<span></span></div>
+                <div class="price">250.000<span></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/ao3.jpg"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1">Áo phong</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">220.000<span></span></div>
+                <div class="price">120.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/ao2.jpg"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1">Áo phong nâu </div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">200.000<span></span></div>
+                <div class="price">150.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/cargo.png"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul> 
+                </div>
+                
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1"> Quần baggy nam</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">150.000<span></span></div>
+                <div class="price">90.000<span></span></div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+                <div class="product">
+                    <img class="product-img" src="./assets/img/donghonu.png"
+                        alt="">
+                    <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                        <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                        <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                        <li class="icon  btn-themgiohang" onclick="themvaogiohangsanphamsale(this)"  data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                    </ul>
+                </div>
+                <div class="tag bg-red">sale</div>
+                <div class="title pt-4 pb-1">Đồ hồ nữ</div>
+                <div class="d-flex align-content-center justify-content-center">
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                    <span class="fas fa-star"></span>
+                </div>
+                <div class="d-flex justify-content-between  ">
+                  <div class="price-old text-decoration-line-through me-4 ">400.000<span></span></div>
+                <div class="price">300.000<span></span></div>
+                </div>
+            </div>
+        </div>
+        <div class="row  " id="divViewMore1" style="display: none !important;transition: 0.5s;">
+          <div
+              class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product">
+                  <img class="product-img" src="./assets/img/an4.png"
+                      alt="">
+                  <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                      <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                      <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                      <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                  </ul>
+              </div>
+              <div class="tag bg-red">sale</div>
+              <div class="title pt-4 pb-1">Áo croptop đen nữ</div>
+              <div class="d-flex align-content-center justify-content-center">
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+              </div>
+              <div class="d-flex justify-content-between  ">
+                <div class="price-old text-decoration-line-through me-4 ">1.500.000<span></span></div>
+              <div class="price">600.000<span></span></div>
+              </div>
+          </div>
+          <div
+              class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product">
+                  <img class="product-img" src="./assets/img/ao3.jpg"
+                      alt="">
+                  <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                      <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                      <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                      <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                  </ul>
+              </div>
+              <div class="tag bg-red">sale</div>
+              <div class="title pt-4 pb-1">Áo phong trắng sọc dọc</div>
+              <div class="d-flex align-content-center justify-content-center">
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+              </div>
+              <div class="d-flex justify-content-between  ">
+                <div class="price-old text-decoration-line-through me-4 ">400.000<span></span></div>
+              <div class="price">200.000<span></span></div>
+              </div>
+          </div>
+          <div
+              class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product">
+                  <img class="product-img" src="./assets/img/kinhgucci.jpg"
+                      alt="">
+                  <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                      <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                      <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                      <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                  </ul>
+              </div>
+              <div class="tag bg-red">sale</div>
+              <div class="title pt-4 pb-1"> Kính Gucci</div>
+              <div class="d-flex align-content-center justify-content-center">
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+              </div>
+              <div class="d-flex justify-content-between  ">
+                <div class="price-old text-decoration-line-through me-4 ">700.000<span></span></div>
+              <div class="price">600.000<span></span></div>
+              </div>
+          </div>
+          <div
+              class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+              <div class="product">
+                  <img class="product-img" src="./assets/img/daychuyen.png"
+                      alt="">
+                  <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                      <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                      <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                      <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                  </ul>
+              </div>
+              <div class="title pt-4 pb-1">Dây chuyền nữ</div>
+              <div class="tag bg-red">sale</div>  
+              <div class="d-flex align-content-center justify-content-center">
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+                  <span class="fas fa-star"></span>
+              </div>
+              <div class="d-flex justify-content-between  ">
+                <div class="price-old text-decoration-line-through me-4 ">350.000<span></span></div>
+              <div class="price">250.000</div>
+              </div>
+          </div>
+      </div>
+      <div class="row  " id="divViewMore2" style="display: none !important; transform: 0.5s;">
+        <div
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+            <div class="product">
+                <img class="product-img" src="./assets/img/dep.png"
+                    alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                    <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                    <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                    <li class="icon btn-themgiohang"onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                </ul>
+            </div>
+            <div class="tag bg-red">sale</div>
+            <div class="title pt-4 pb-1">Dép nam nữ</div>
+            <div class="d-flex align-content-center justify-content-center">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+            </div>
+            <div class="d-flex justify-content-between  ">
+              <div class="price-old text-decoration-line-through me-4 ">200.000<span></span></div>
+              <div class="price">150.000</div>
+            </div>
+        </div>
+        <div
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+            <div class="product">
+                <img class="product-img" src="./assets/img/hd1.png"
+                    alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                    <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                    <li class="icon mx-3" onclick="themvaodanhsachyeuthichsaletrongsanpham(this)"><span class="far fa-heart"></span></li>
+                    <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                </ul>
+            </div>
+            <div class="tag bg-red">sale</div>
+            <div class="title pt-4 pb-1">Hoodie</div>
+            <div class="d-flex align-content-center justify-content-center">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+            </div>
+            <div class="d-flex justify-content-between  ">
+              <div class="price-old text-decoration-line-through me-4 ">400.000<span></span></div>
+            <div class="price">200.000<span></span></div>
+            </div>
+        </div>
+        <div
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+            <div class="product">
+                <img class="product-img" src="./assets/img/hd4.png"
+                    alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                    <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                    <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                    <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                </ul>
+            </div>
+            <div class="tag bg-red">sale</div>
+            <div class="title pt-4 pb-1"> Hoodie nam nữ</div>
+            <div class="d-flex align-content-center justify-content-center">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+            </div>
+            <div class="d-flex justify-content-between  ">
+              <div class="price-old text-decoration-line-through me-4 ">300.000<span></span></div>
+            <div class="price">250.000<span></span></div>
+            </div>
+        </div>
+        <div
+            class="col-lg-3 col-sm-6 d-flex flex-column align-items-center justify-content-center product-item my-3">
+            <div class="product">
+                <img class="product-img" src="./assets/img/giaytt.png"
+                    alt="">
+                <ul class="d-flex align-items-center justify-content-center list-unstyled icons">
+                    <li class="icon"><span class="fas fa-expand-arrows-alt"></span></li>
+                    <li class="icon mx-3" onclick="themvaodanhsachyeuthichsale(this)"><span class="far fa-heart"></span></li>
+                    <li class="icon btn-themgiohang" onclick="themvaogiohangsanphamsale(this)" data-bs-toggle="modal" data-bs-target="#myModel" id="shareBtn" data-bs-placement="top" title="Click Me!"><span class="fas fa-shopping-bag"></span></li>
+                </ul>
+            </div>
+            <div class="tag bg-red">sale</div>  
+            <div class="title pt-4 pb-1">Giày convert</div>
+            <div class="d-flex align-content-center justify-content-center">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+            </div>
+            <div class="d-flex justify-content-between  ">
+              <div class="price-old text-decoration-line-through me-4 ">750.000<span></span></div>
+            <div class="price">550.000<span></span></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class=" d-flex justify-content-center" id="viewmore">
+        <button class="btn btn-info " type="button" onclick="show_hide()" id="btn-viewmore">Xem thêm </button>
+    </div>
+    </section>
+		</div>
+
+    
+
+
+    
+
+<!-- Toast message -->
+<div class="toasts "></div>
+  
+<!-- FOOTER -->
+
+<!--  khach hang  noi gi ve chung toi-->
+
+<section id="review" class="mt-5" data-aos="fade-up"
+data-aos-anchor-placement="center-bottom">
+  <div id="testimonial_area" class="section_padding">
+    <div class="col-12">
+      <h1 class="text-center">ĐÁNH GIÁ CỦA KHÁCH HÀNG </h1>
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="testmonial_slider_area text-center owl-carousel">
+            <div class="box-area" style="height: 200px;border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt.jpg" alt="">
+              </div>	
+              <h5>Phạm Văn Phi</h5>
+              							
+              <p class="content">
+                Tôi rất hài lòng về cửa hàng này . Dù là sản phẩm đã qua sử dụng nhưng vẫn rất tốt  , nhìn như mới.Tôi sẽ ủng hộ shop lâu dài.
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          
+            <div class="box-area" style="height: 200px;border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt1.png" alt="">
+              </div>	
+              <h5>Ẩn danh</h5>
+              									
+              <p class="content">
+                Hai chữ thôi : Tuyệt vời 
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          
+            <div class="box-area" style="height: 200px;border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt2.jpg" alt="">
+              </div>	
+              <h5>Tống Chính Chung</h5>
+              									
+              <p class="content">
+                Tôi rất tin tưởng shop và đã mua rất nhiều sản phẩm ở đây.Cảm ơn shop rất nhiều 
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          
+            <div class="box-area" style="height: 200px;border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt3.jpg" alt="">
+              </div>	
+              <h5>Trần Quốc Trường</h5>
+              									
+              <p class="content">
+                Một cửa hàng thật sự rất tuyệt vời . Không chỉ mua hàng mà chúng ta cũng có thể bán hàng nữa .10 điểm 
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          
+            <div class="box-area" style="height: 200px;border-radius: 15px ; border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt4.jpg" alt="" >
+              </div>	
+              <h5>Lê Kim Yến</h5>
+              Tôi rất hài lòng về cửa hàng này . Dù là sản phẩm đã qua sử dụng nhưng vẫn rất tốt  , nhìn như mới.Tôi sẽ ủng hộ shop lâu dài.						
+              <p class="content">
+                
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          
+            <div class="box-area" style="height: 200px;border-radius: 15px ;">	
+              <div class="img-area">
+                <img src="./assets/img/avt5.jpg" alt="">
+              </div>	
+              <h5>Phan Thùy Linh</h5>
+              									
+              <p class="content">
+                Mong shop sẽ có thêm thật nhiều sản phẩm xịn xò nữa nhé .
+              </p>
+              <h6 class="socials">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                  <i class="fa fa-youtube"></i>
+              </h6>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+<!-- Scroll UP -->
+  
+<!-- Section blog -->
+
+<section id="blog_area" class="section_padding" data-aos="fade-up"
+data-aos-anchor-placement="center-bottom">
+  <div class="container">
+  <div class="section_heading text-center">
+              <h2> <span data-aos="fade-right">BLOG</span></h2>
+          
+          </div>
+    <div class="row" data-aos="zoom-in-up" >
+      <div class="col-md-12">
+        <div class="blog_slider_area owl-carousel">
+          <div class="box-area">	
+            <div class="single-blog">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog1.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 1</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">Xem thêm</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> 
+        
+          <div class="box-area">	
+            <div class="single-blog wow fadeInUp">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog2.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 2</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">Xem thêm</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> <!-- END SINGLE blogS -->	
+        
+          <div class="box-area">	
+            <div class="single-blog wow fadeInUp">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog3.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 3</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">Xem thêm</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> <!-- END SINGLE blogS -->
+        
+          <div class="box-area">	
+            <div class="single-blog wow fadeInUp">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog4.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 4</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">Xem thêm</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> <!-- END SINGLE blogS -->
+        
+          <div class="box-area">	
+            <div class="single-blog wow fadeInUp">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog5.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 5</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">Xem thêm</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> <!-- END SINGLE blogS -->
+        
+          <div class="box-area">	
+            <div class="single-blog wow fadeInUp">
+                                  <div class="post-img">
+                                      <img src="./assets/img/blog6.jpg" alt=""/>
+                                  </div>
+                                  <div class="single_blog">
+                                      <a href="#"><h3 class="post-title">BLOG 6</h3></a>
+                                      <ul class="icon-area">
+                                          <li><i class="fa fa-users"></i>Admin</li>
+                                          <li><i class="fa fa-clock-o"></i>2/6/2022 </li>										
+                                      </ul>
+                                      <p class="blog-text">
+                                        Sự kiện thời trang đồ second diễn ra tại TP Đà Nẵng thu hút rất nhiều khán giả ....
+                                      </p>
+                                      <div class="btn-area">
+                                          <a href="#" class="btn btn-default main_btn">read more</a>
+                                      </div>
+                                  </div>
+                              </div>
+          </div> <!-- END SINGLE blogS -->	
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+
+  <footer class="site-footer" id="footer"  >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <!-- Contact Info-->
+          <section class="widget widget-light-skin">
+            <h3 class="widget-title">Liên hệ với chúng tôi</h3>
+            <p class="text-white">Điện thoại : 84 971 324 117</p>
+            <ul class="list-unstyled text-sm text-white">
+              <li><span class="opacity-50">Địa điểm :</span> 102 Võ Chí Công Hòa Hải</li>
+              <li><span class="opacity-50">Thời gian :</span> 7h sáng - 16h30</li>
+            </ul>
+            <p><a class="navi-link-light" href="#">phipham882@gmail.com</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- Mobile App Buttons-->
+          <section class="widget widget-light-skin">
+            <h3 class="widget-title">Tải ứng dụng</h3><a class="market-button apple-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">App Store</span></a><a class="market-button google-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">Google Play</span></a><a class="market-button windows-button mb-light-skin" href="#"><span class="mb-subtitle">Download on the</span><span class="mb-title">Windows Store</span></a>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <!-- About Us-->
+          <section class="widget widget-links widget-light-skin">
+            <h3 class="widget-title">Về chúng tôi</h3>
+            <ul>
+              <li><a href="#">Tương tác</a></li>
+              <li><a href="#">Ủng hộ</a></li>
+              <li><a href="#">Đánh giá</a></li>
+             
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="col-lg-3 col-md-6">
+     
+          <section class="widget widget-links widget-light-skin">
+            <h3 class="widget-title">Tài khoản  &amp; Vận chuyển</h3>
+            <ul>
+              <li><a href="#">Tài khoản của bạn</a></li>
+              <li><a href="#">Chính sách  &amp; Phí vận chuyển</a></li>
+              <li><a href="#">Hoàn lại tiền &amp; Thay thế</a></li>
+              <li><a href="#">Thuế</a></li>
+              <li><a href="#">Thông tin giao hàng</a></li>
+              <li><a href="#">Chương trình liên kết</a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <hr class="hr-light mt-2 margin-bottom-2x">
+      <div class="row">
+        <div class="col-md-7 padding-bottom-1x"></div>
+        <div class="col-md-5 padding-bottom-1x">
+          <div class="margin-top-1x hidden-md-up"></div>
+          <!--Subscription-->
+          <form class="subscribe-form" action="#" method="post" target="_blank" novalidate="">
+            <div class="clearfix">
+              <div class="input-group input-light">
+                <input class="form-control" type="email" name="EMAIL" placeholder="Your e-mail"><span class="input-group-addon"><i class="icon-mail"></i></span>
+              </div>
+              <button class="btn btn-primary mt-2" type="submit">Suscbribe</button>
+            </div><span class="form-text text-sm text-white opacity-50">Đăng ký Bản tin của chúng tôi để nhận ưu đãi giảm giá sớm, tin tức, thông tin bán hàng và khuyến mãi mới nhất..</span>
+          </form>
+        </div>
+      </div>
+      <!-- Copyright-->
+      <p class="footer-copyright">&copy; All rights reserved.</a></p>
+    </div>
+  </footer>
+
+
+
+ 
+
+
+
+
+</body>
+<script type="text/javascript">
+     var divViewMore = document.getElementById('divViewMore1')
+     var divViewMore = document.getElementById('divViewMore2')
+     var btnViewMore = document.getElementById('btn-viewmore')
+     
+  function show_hide(){
+   divViewMore1.style.display = 'flex';
+   divViewMore2.style.display = 'flex';
+  btnViewMore.style.display = 'none';
+   console.log(btnViewMore)
+ }
+    
+</script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+<script src="./assets/js/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/toastr.min.js"></script>
+<script src="./assets/js/sanphamyeuthich.js"></script>
+<script src="./assets/js/giohang.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./assets/js/aos.js"></script>
+ <!-- <script src="./assets/js/giohangchitiet.js"></script> -->
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+ <script>
+     $(".blog_slider_area").owlCarousel({
+     autoplay: true,
+     slideSpeed:1000,
+     items : 3,
+     loop: true,
+     nav:false,
+     margin: 30,
+     dots: true,
+     responsive:{
+       320:{
+         items:1
+       },
+       767:{
+         items:2
+       },
+       600:{
+         items:2
+       },
+       1000:{
+         items:3
+       }
+     }
+     
+   });
+ </script>
+ 
+<script>
+
+  $(".testmonial_slider_area").owlCarousel({
+  autoplay: true,
+  slideSpeed:1000,
+  items : 3,
+  loop: true,
+  nav:true,
+  navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+  margin: 30,
+  dots: true,
+  responsive:{
+    320:{
+      items:1
+    },
+    767:{
+      items:2
+    },
+    600:{
+      items:2
+    },
+    1000:{
+      items:3
+    }
+  }
+  
+});
+</script>
+
+
+</html>

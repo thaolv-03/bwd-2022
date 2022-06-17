@@ -1,0 +1,150 @@
+/* Mobile $ tablet */
+@media (max-width:1023px) {
+    .slide-img{
+        width: 100%;
+        margin: auto;
+    }
+    /* Contact */
+    /* .contactUs{
+        padding: 20px;
+
+    }
+
+    .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+         "form"
+         "information"
+         "map"
+         ;
+    }
+
+    .map{
+        min-height: 300px;
+
+    } */
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .main-slider-content{
+        width: 81%;
+        margin-top: 50px;
+    }
+
+}
+/* Mobile */
+@media (max-width:739px) {
+    .feature{
+        width: 80%;
+        margin: auto;
+    }
+
+    .carousel-caption{
+        bottom: 165px;
+
+    }
+
+    .carousel-caption h5{
+        font-size: 16px;
+        
+    }
+    .carousel-caption{
+        bottom: 165px;
+        
+    }
+
+    .search-on-mobile{
+        display: block;
+    }
+
+
+    /* cart list */
+    .header__cart-list{
+        position: absolute;
+        top: 100%;
+        right: -193px;
+        background-color: #ffffff;
+        width: 282px;
+        border-radius: 3px;
+        box-shadow: 0 2px 10px #ccc;
+        animation: fadeIn ease-in 0.2s;
+        cursor: default;
+        display: none;
+        z-index: 2;
+    }
+    .header__cart-item-name {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        height: 2rem;
+        overflow: hidden;
+        font-weight: 500;
+        margin: 0;
+    }
+    .header__cart-heading {
+        text-align: left;
+        margin-top: 8px;
+        margin-right: 0;
+        margin-bottom: 8px;
+        margin-left: 63px;
+        opacity: 0.6;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .header__cart-item-price {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #EE4D2D;
+    }
+
+    /* Setting User */
+
+    .setting-user {
+        position: absolute;
+        top: calc(100% + 0px);
+        right: -152px;
+        background-color: #ffffff;
+        width: 180px;
+        border-radius: 3px;
+        box-shadow: 0 2px 10px #ccc;
+        animation: fadeIn ease-in 0.2s;
+        cursor: default;
+        height: 76px;
+        z-index: 2;
+        display: none;
+    }
+    /* #search {
+        display: none;
+    }
+
+    #search1 {
+        display: block;
+    } */
+
+    .form-container{
+        position: absolute;
+        right: -240px;
+        top: 65px;
+        width: 282px;
+        opacity: 1;
+    }
+    .main-slider-content{
+        width: 60%;
+        margin-top: 100px;
+    }
+
+}
+
+/* Responsive Slider */
+@media only screen and (max-width:1199px) {
+    .main-slider{
+        min-height: 475px;
+        height: calc(100vw / 1.714);
+    }
+    
+    .main-slider-content{
+        width: 80%;
+    }
+}
+
